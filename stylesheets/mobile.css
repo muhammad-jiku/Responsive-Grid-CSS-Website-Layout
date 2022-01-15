@@ -1,0 +1,19 @@
+/* nav{
+    padding:0;
+}  */
+
+nav > ul{
+    flex-direction: column;
+}
+
+/* nav > ul > li{
+    padding:0;
+    margin: 10px 0 ;
+} */
+
+.top-corner{
+    grid-template-areas: 
+        'showcase showcase'
+        'top-box-a top-box-b'
+    ;
+}
